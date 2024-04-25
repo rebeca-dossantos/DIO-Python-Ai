@@ -9,7 +9,7 @@ while True:
         for j in range(quantd):
             numero=int(input('Digite o valor que deseja depositar: '))
             while numero<0:
-                print('Não é posivel depositar valores menores que 0')
+                print('Não é permitido depositar valores menores que 0')
                 numero=int(input('Digite o valor que deseja depositar ou "0" para desistir do despósito: '))
                 if numero==0:
                     break
